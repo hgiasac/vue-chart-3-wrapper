@@ -1,0 +1,36 @@
+{
+  "name": "@hgiasac/vue-chart-3-wrapper",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.tsx,.vue ./src",
+    "build": "rm -rf dist && tsc",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.1.5",
+    "vue-chart-3": "^0.4.8"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^2.0.2",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "typescript": "^4.3.5"
+  },
+  "description": "vue-chart-3 wrappers with types for jsx",
+  "author": "Toan Nguyen",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "chart",
+    "types"
+  ],
+  "homepage": "https://github.com/hgiasac/vue-chart-3-wrapper",
+  "bugs": {
+    "url": "https://github.com/hgiasac/vue-chart-3-wrapper/issues",
+    "email": "hgiasac@gmail.com"
+  }
+}
